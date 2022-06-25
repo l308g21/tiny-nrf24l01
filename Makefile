@@ -26,7 +26,7 @@ deploy: src/libtiny-nrf24l01.a
 	cp $< /usr/avr/lib/
 	cp src/*.h /usr/avr/include/
 
-.PHONY: clear
+.PHONY: clean
 
-clear:
+clean:
 	rm -f src/*.o src/*.a 
